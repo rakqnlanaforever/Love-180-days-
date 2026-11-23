@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>hi mamy ❤️</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Georgia, serif;
+  background: #ffe4ec;
+  color: #85445d;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 65px 20px;
+  max-width: 650px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 55px;
+  color: #d65b86;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.heart {
+  font-size: 35px;
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  50% { transform: scale(1.3); }
+}
+
+.photo {
+  width: 90%;
+  max-width: 420px;
+  border-radius: 20px;
+  margin: 30px auto;
+  box-shadow: 0 8px 25px #d88aa766;
+}
+
+.music {
+  background: white;
+  padding: 22px;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+
+iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+  border-radius: 12px;
+}
+
+button {
+  background: #e77da0;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 14px 25px;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.message {
+  display: none;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  line-height: 1.8;
+}
+
+footer {
+  margin-top: 45px;
+  font-size: 14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="heart">💗</div>
+
+<h1>hi mamy</h1>
+
+<p class="subtitle">
+today Marks 180 days of Us being too
+</p>
+
+<img src="cats.jpg" class="photo" alt="Literally us ❤️">
+
+<div class="music">
+<h2>Our song 🎵</h2>
+<p>Belong Together - Mark Ambor</p>
+
+<iframe
+src="https://www.youtube.com/embed/xPWnNFF-TAw"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+</div>
+
+<h2>One little message 💌</h2>
+
+<button onclick="document.getElementById('msg').style.display='block'">
+Open your letter ❤️
+</button>
+
+<div class="message" id="msg">
+You are my favorite person.
+I'm so happy that you're in my life.
+Here's to many more memories together. 💗
+</div>
+
+<footer>
+Made with love, just for you ❤️
+</footer>
+
+</div>
+
+</body>
+</html>
